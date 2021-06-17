@@ -5,7 +5,7 @@ pipeline{
 	
 	stages {
 		
-		tage ("scm-fetch") {
+		stage ("scm-fetch") {
 			steps{
 				echo 'Fetching Source Code management from GITHUB'
 				sh 'sleep 10'
